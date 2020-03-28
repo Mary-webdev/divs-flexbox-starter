@@ -111,6 +111,17 @@ body {
   font-weight: 700;
 }
 
+header, p {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    color: rgb(204, 200, 200);
+}
+
+.about {
+    border-bottom: 3px dotted rgb(204, 200, 200); 
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
@@ -118,6 +129,7 @@ body {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 3px dotted rgb(204, 200, 200);
 }
 
 .div-1, .div-2, .div-3 {
